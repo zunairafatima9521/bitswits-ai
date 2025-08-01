@@ -1,0 +1,74 @@
+<head>
+    <title>Bitswits AI</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f9f4fa 0%, #fff0fa 100%);
+            margin: 0;
+            padding: 60px 0;
+        }
+
+        main {
+            background: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(181, 91, 155, 0.2);
+            border-top: 6px solid #b55b9b;
+        }
+
+        h2 {
+            color: #b55b9b;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        textarea {
+            font-size: 16px;
+            padding: 16px;
+            border: 2px dashed #b55b9b;
+            border-radius: 12px;
+            height: 180px;
+            resize: vertical;
+            font-family: inherit;
+        }
+
+        button {
+            align-self: flex-end;
+            background-color: #b55b9b;
+            color: white;
+            padding: 14px 32px;
+            font-size: 16px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(181, 91, 155, 0.25);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #9a4a86;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Ask Bitswits AI</h2>
+        <form method="post">
+            <textarea name="prompt" placeholder="Type your question here..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+
+

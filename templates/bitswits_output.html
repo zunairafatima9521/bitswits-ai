@@ -1,0 +1,69 @@
+<head>
+    <title>Bitswits AI Response</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(120deg, #f9f4fa, #fff6fb);
+            margin: 0;
+            padding: 60px 0;
+        }
+
+        main {
+            max-width: 700px;
+            margin: auto;
+            padding: 40px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            border-left: 6px solid #b55b9b;
+            box-shadow: 0 10px 25px rgba(181, 91, 155, 0.2);
+        }
+
+        h2 {
+            color: #b55b9b;
+            font-size: 26px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 6px;
+        }
+
+        p {
+            background: #fceaf4;
+            padding: 18px;
+            border-left: 4px #b55b9b;
+            border-radius: 12px;
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            text-decoration: none;
+            color: white;
+            background-color: #b55b9b;
+            padding: 12px 28px;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 12px rgba(181, 91, 155, 0.2);
+        }
+
+        a:hover {
+            background-color: #9a4a86;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Your Prompt</h2>
+        <p>{{ prompt }}</p>
+
+        <h2>AI's Response</h2>
+        <p>{{ reply }}</p>
+
+        <a href="/bitswits/">Ask Another Question</a>
+    </main>
+</body>
+
