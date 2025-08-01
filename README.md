@@ -1,1 +1,2 @@
 # bitswits-ai
+Bitswits AI is a simple yet powerful Flask-based web app that connects to OpenAI’s API to let users chat with an AI using their own prompts. Built with Python, HTML, and CSS, this app features a clean, pastel-themed interface where users can type questions and receive smart, real-time AI-generated responses. It showcases how to integrate Flask with OpenAI’s GPT-4o-mini model and is perfect for experimenting with prompt engineering, building chatbot prototypes, or simply having fun conversations with AI.
